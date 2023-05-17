@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <div class="site">
+        <div class="benderspeech">
+          <figure class="bender"><img src=images/bender.png class="benderimg"><img></figure>
+          <figure class="speech"><img src=images/speech.png class="speechimg" id="speech-el"></figure>
+        </div>      
+            
+        <div class="game">
+          <p id="dealercards-el"></p>
+          <p id="cards-el"></p>
+          <button id="newcard-el", onclick="newCard()", disabled="true", hidden="true">DRAW!</button>
+          <button id="stick-el", onclick="Stick()", hidden="true">STICK!</button>
+          <p>
+          <button id="startgame-el", onclick="startGame()">START GAME!</button>
+          <p id="player-el", hidden="true"></p>
+        </div>
+      </div>   
+      
+
+         
+      <script src=index.js></script>
+
+    </body>
+</html>

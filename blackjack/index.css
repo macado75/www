@@ -1,0 +1,72 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    overflow: hidden;   
+}
+
+.site{
+  position: absolute;
+  width: 1000;
+}
+
+.speech{
+  position: absolute;
+  left: 400;
+  top: -85;
+}
+
+.game{
+  position: absolute;
+}
+
+.benderspeech{
+  position: absolute;
+  top: 75;
+  left: 50;
+}
+
+.bender{
+  position: absolute;
+  top: -100;
+  left: 500;
+  max-height: 300px;
+}
+
+
+
+.benderimg{
+  max-height: 1000px;
+}
+
+.speechimg{
+  max-height: 300px;
+}
+
+
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(158, 158, 158);
+    margin-right: 5px;
+}
+
+
+.game {
+  float: left;
+  width: 55%;
+  padding: 0px; 
+}
+  
+
+
+
